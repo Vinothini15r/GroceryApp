@@ -1,0 +1,59 @@
+/* PrivacyPolicy.css */
+
+/* Style for the privacy policy page */
+.privacy-policy-page {
+  text-align: center;
+  padding: 20px;
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-repeat: no-repeat;
+  /* Set the background image for the privacy-policy-page */
+}
+
+/* Style for the privacy policy container */
+.privacy-policy-container {
+  background-color: rgba(248, 246, 246, 0.9);
+  border: 1px solid #080808;
+  border-radius: 20px;
+  padding: 100px; /* Adjust padding as needed */
+  box-shadow: 0 2px 4px rgba(90, 86, 86, 0.1);
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative; /* Relative positioning for absolute child */
+  text-align: left; /* Adjust text alignment as needed */
+}
+
+/* Style for the "Privacy Policy" heading */
+.privacy-policy-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the image inside the container */
+.container-image {
+  position: relative;
+  max-width: 200%;
+  margin-bottom: 100px;
+  height: auto;
+  margin-bottom: 20px; /* Add spacing between image and content */
+}
+
+/* Style for the "Back" button */
+.back-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #e8e1df;
+  color: #131212;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px; /* Position at the bottom of the container */
+  left: 50%; /* Center horizontally within the container */
+  transform: translateX(-50%);
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
